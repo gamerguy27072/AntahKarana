@@ -1,8 +1,8 @@
 # 🧠 Antahkarana: Your Second Brain AI Assistant
 
-Antahkarana(The Inner Instrument) is one of my dear projects that is a personal AI second brain assistant on top of your digital resources. It leverages advanced GenAI concepts, including Retrieval-Augmented Generation (RAG), fine-tuning, and LLMOps, to create a production-ready application.
-
 ![Antahkarana Flow Diagram](docs/Antahkarana_flow_diagram.png)
+
+Antahkarana(The Inner Instrument) is one of my dear projects that is a personal AI second brain assistant on top of your digital resources. It leverages advanced GenAI concepts, including Retrieval-Augmented Generation (RAG), fine-tuning, and LLMOps, to create a production-ready application.
 
 ## 🚀 Features
 
