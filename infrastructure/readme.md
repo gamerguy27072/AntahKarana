@@ -2,7 +2,6 @@
 
 This section details the infrastructure I implemented to containerize and manage the project's environment for consistent and reproducible deployments.
 
-### 📄 README: `infrastructure/README.md`
 
 ### Containerization and Environment Setup
 
