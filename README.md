@@ -39,3 +39,6 @@ Antahkarana(The Inner Instrument) is one of my dear projects that is a personal 
   - **Deployment**: Hugging Face Dedicated Endpoints
   - **Observability**: Opik
   - **Core Libraries**: PyTorch, Hugging Face `transformers`
+
+  ### 📄 README: `offline_pipeline/README.md`
+  ### 📄 README: `online_pipeline/README.md`
