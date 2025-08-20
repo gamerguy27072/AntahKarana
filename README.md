@@ -2,6 +2,8 @@
 
 Antahkarana(The Inner Instrument) is one of my dear projects that is a personal AI second brain assistant on top of your digital resources. It leverages advanced GenAI concepts, including Retrieval-Augmented Generation (RAG), fine-tuning, and LLMOps, to create a production-ready application.
 
+![Antahkarana Flow Diagram](docs/Antahkarana_flow_diagram.png)
+
 ## 🚀 Features
 
   - **Data Ingestion**: Automates the collection and processing of data from Notion and other web resources.
