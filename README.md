@@ -14,22 +14,23 @@ Antahkarana(The Inner Instrument) is one of my dear projects that is a personal 
 
 ## 📁 Project Structure
 
-```
+```bash
 .
-├── offline_pipelines/
-│   ├── etl_pipeline/               # Data collection and preprocessing (Notion, web crawling)
-│   ├── feature_pipelines/          # RAG and dataset generation
-│   ├── training_pipeline/          # Fine-tuning the LLM
-│   └── zenml_orchestrator/         # ZenML configurations for pipeline orchestration
-│
-├── online_app/
-│   ├── api/                        # FastAPI/Gradio UI for the agentic inference pipeline
-│   ├── llm_endpoint/               # Deployed summarization LLM
-│   └── observability/              # Prompt monitoring and evaluation with Opik
-│
-├── docs/                           # Diagrams, project architecture, and technical explanations
-├── notebooks/                      # Exploratory data analysis and PoCs
-└── README.md
+├── configs/                   # ZenML configuration files
+├── pipelines/                 # ZenML ML pipeline definitions
+├── src/second_brain_offline/  # Main package directory
+│   ├── application/           # Application layer
+│   ├── domain/                # Domain layer
+│   ├── infrastructure/        # Infrastructure layer
+│   ├── config.py              # Configuration settings
+│   └── utils.py               # Utility functions
+├── steps/                     # ZenML pipeline steps
+├── tests/                     # Test files
+├── tools/                     # Entrypoint scripts that use the python package
+├── .env.example               # Environment variables template
+├── .python-version            # Python version specification
+├── Makefile                   # Project commands
+└── pyproject.toml             # Project dependencies
 ```
 
 ## 🛠️ Technology Stack
