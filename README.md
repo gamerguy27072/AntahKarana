@@ -43,3 +43,6 @@ Antahkarana(The Inner Instrument) is one of my dear projects that is a personal 
   - **Observability**: Opik
   - **Core Libraries**: PyTorch, Hugging Face `transformers`
 
+## 🖥️ Demo Video
+<video src="https://github.com/user-attachments/assets/bfea8e24-6d52-4a33-8857-5d05154ab69e"></video>
+
