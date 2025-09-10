@@ -16,21 +16,10 @@ Antahkarana(The Inner Instrument) is one of my dear projects that is a personal 
 
 ```bash
 .
-├── configs/                   # ZenML configuration files
-├── pipelines/                 # ZenML ML pipeline definitions
-├── src/second_brain_offline/  # Main package directory
-│   ├── application/           # Application layer
-│   ├── domain/                # Domain layer
-│   ├── infrastructure/        # Infrastructure layer
-│   ├── config.py              # Configuration settings
-│   └── utils.py               # Utility functions
-├── steps/                     # ZenML pipeline steps
-├── tests/                     # Test files
-├── tools/                     # Entrypoint scripts that use the python package
-├── .env.example               # Environment variables template
-├── .python-version            # Python version specification
-├── Makefile                   # Project commands
-└── pyproject.toml             # Project dependencies
+├── apps / 
+|   ├── infrastructure/           # Docker infrastructure for the applications
+|   ├── second-brain-offline/     # Offline ML pipelines
+└─  └── second-brain-online/      # Online inference pipeline = our AI assistant
 ```
 
 ## 🛠️ Technology Stack
