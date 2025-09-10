@@ -19,7 +19,8 @@ Antahkarana(The Inner Instrument) is one of my dear projects that is a personal 
 ├── apps / 
 |   ├── infrastructure/           # Docker infrastructure for the applications
 |   ├── second-brain-offline/     # Offline ML pipelines
-└─  └── second-brain-online/      # Online inference pipeline = our AI assistant
+|   └── second-brain-online/      # Online inference pipeline = our AI assistant
+└── docs/                         # Documentation and diagrams
 ```
 
 ## 🛠️ Technology Stack
